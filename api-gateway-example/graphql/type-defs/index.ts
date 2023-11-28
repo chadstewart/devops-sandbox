@@ -125,7 +125,7 @@ export const typeDefs = `#graphql
   }
 
   type Cat {
-    id: ID
+    id: ID!
     width: Int
     height: Int
     url: String
